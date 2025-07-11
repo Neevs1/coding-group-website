@@ -12,16 +12,27 @@ body{
     background-color:crimson;
 }
 .Page-header {
+    font-family: 'Montserrat', sans-serif;
     background-color: #0d3a94;
     padding: 20px;
     color: white;
 }
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     gap: 20px;
 }
+
+#title {
+    align-self: flex-start;
+    
+    font-weight: bold;
+    color: white;
+    margin-right: auto;
+}
+
 nav .nav-buttons {
+   
     background: transparent;
     border: none;
     padding: 10px 20px;
