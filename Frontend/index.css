@@ -10,14 +10,18 @@ body{
     border: 10px solid wheat;
     border-radius: 50%;
     background-color:crimson;
+    
+    
 }
 .Page-header {
     font-family: 'Montserrat', sans-serif;
     background-color: #0d3a94;
     padding: 20px;
     color: white;
+
 }
 nav {
+    font-size: large;
     display: flex;
     justify-content: right;
     gap: 20px;
@@ -25,8 +29,8 @@ nav {
 
 #title {
     align-self: flex-start;
-    
     font-weight: bold;
+    font-size: x-large;
     color: white;
     margin-right: auto;
 }
@@ -38,6 +42,38 @@ nav .nav-buttons {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: gainsboro;
     font-size: 16px;
 }
+#info{
+    border-color: cadetblue;
+    font-weight: 500;
+    font-style: normal;
+    border: 5px inset red;
+    background-color:cornflowerblue;
+    color:aliceblue;
+}
+#Members{
+    display:inline-block;
+    text-align: center;
+    font-style: italic;
+    padding-right: 10px;
+    gap: 20px;
+}
+#Pranav{
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+#Neevan{
+     border-radius: 50%;
+    height: 100px;
+    width: auto;   
+}
+#Aryan{
+     border-radius: 50%;
+    height: 100px;
+    width: auto;   
+}
+
