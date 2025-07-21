@@ -76,4 +76,12 @@ nav .nav-buttons {
     height: 100px;
     width: auto;   
 }
-
+#leetcode{
+    background-color : #ffb84d;
+}  
+#codeforces{
+    background-color : #33ccff;
+}
+#codechef{
+   background-color : #ff5500;
+} 
