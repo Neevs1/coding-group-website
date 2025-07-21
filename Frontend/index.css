@@ -1,9 +1,13 @@
 body{
     text-align: center;
-    text-shadow: 0px 0px 20px;
+    
     font-size: large;
     font-weight: 500;
-    font-style: normal;    
+    font-style: normal;  
+    background-image: url('../Photos/layered-waves-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #header{
     color:antiquewhite;
@@ -45,6 +49,12 @@ nav .nav-buttons {
     color: gainsboro;
     font-size: 16px;
 }
+
+nav .nav-buttons:hover {
+   
+    background-color:#092e78;
+}
+
 #info{
     border-color: cadetblue;
     font-weight: 500;
@@ -54,6 +64,7 @@ nav .nav-buttons {
     color:aliceblue;
 }
 #Members{
+    color:aliceblue;
     display:inline-block;
     text-align: center;
     font-style: italic;
@@ -77,20 +88,62 @@ nav .nav-buttons {
     width: auto;   
 }
 .leetcode{
-    background-color : #fcd7a0;
+    color : #ff9900;
 }  
+.leetcode > td> a:link{
+    color : #ff9900;
+    
+}
+.leetcode > td > a:visited{
+    color : #f63e00;
+    
+}
 .codeforces{
-    background-color : #bae6f5;
+    color : #9af1ff;
+}
+.codeforces > td> a:link{
+    color : #9af1ff;
+    
+}
+.codeforces > td > a:visited{
+    color : #005eff;
+    
 }
 .codechef{
-   background-color : #ed8e5e;
+   color : #ec5103;
 } 
 
 #FilterBar{
+  margin: auto;
+  width: 100%;
+  height: 5%;
   display: flex;
+}
+#FilterBar > input{
+    margin: 5px;
+}
+#lc,#cc,#cf,#cl{
+    border: none;
+    align-items: end;
+    background: transparent;
+    color: azure;
+}
+#lc:hover,#cc:hover,#cf:hover,#cl:hover{
+    background-color: black;
+}
+#cc:hover{
+    background-color: black;
+}
+#cf:hover{
+    background-color: black;
+}
+#cl:hover{
+    background-color: black;
 }
 
 #ProblemTable{
+    
+    text-shadow: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,15 +151,18 @@ nav .nav-buttons {
 
 #ProblemTable > table{
     font-family: 'Montserrat', sans-serif;
-    width: 50%;
+    width: 100%;
     border: solid black;
 }
 
 #ProblemTable > table >tbody>tr{
+    text-align: center;
+    /*color: azure;*/
     height: 50px;
 }
 
 #ProblemTable > table >thead>tr{
+    color: azure;
     height: 50px;
 }
 
