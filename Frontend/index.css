@@ -76,12 +76,44 @@ nav .nav-buttons {
     height: 100px;
     width: auto;   
 }
-#leetcode{
-    background-color : #ffb84d;
+.leetcode{
+    background-color : #fcd7a0;
 }  
-#codeforces{
-    background-color : #33ccff;
+.codeforces{
+    background-color : #bae6f5;
 }
-#codechef{
-   background-color : #ff5500;
+.codechef{
+   background-color : #ed8e5e;
 } 
+
+#FilterBar{
+  display: flex;
+}
+
+#ProblemTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ProblemTable > table{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    border: solid black;
+}
+
+#ProblemTable > table >tbody>tr{
+    height: 50px;
+}
+
+#ProblemTable > table >thead>tr{
+    height: 50px;
+}
+
+#ProblemTable > table > tbody>td{
+   
+    border: solid black;
+}
+#ProblemTable > table > thead>th{
+    border: solid black;
+}
