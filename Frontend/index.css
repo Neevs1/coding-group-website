@@ -10,9 +10,11 @@ body{
     
 }
 #header{
+    display: inline-block;
     color:antiquewhite;
     border: 10px solid wheat;
-    border-radius: 50%;
+    border-radius: 20%;
+    width: 300px;
     background-color:crimson;
     
     
@@ -56,11 +58,13 @@ nav .nav-buttons:hover {
 }
 
 #info{
+    display: inline-block;
     border-color: cadetblue;
     font-weight: 500;
     font-style: normal;
     border: 5px inset red;
     background-color:cornflowerblue;
+    width: 400px;
     color:aliceblue;
 }
 #Members{
@@ -88,10 +92,10 @@ nav .nav-buttons:hover {
     width: auto;   
 }
 .leetcode{
-    color : #ff9900;
+    color : #00ff22;
 }  
 .leetcode > td> a:link{
-    color : #ff9900;
+    color : goldenrod;
     
 }
 .leetcode > td > a:visited{
@@ -129,16 +133,17 @@ nav .nav-buttons:hover {
     color: azure;
 }
 #lc:hover,#cc:hover,#cf:hover,#cl:hover{
-    background-color: black;
+    background-color: goldenrod;
+    
 }
 #cc:hover{
-    background-color: black;
+    background-color: #ec5103;
 }
 #cf:hover{
-    background-color: black;
+    background-color: royalblue;
 }
 #cl:hover{
-    background-color: black;
+    background-color: rebeccapurple;
 }
 
 #ProblemTable{
