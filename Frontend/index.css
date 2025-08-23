@@ -9,13 +9,23 @@ body{
     background-size: cover;
     
 }
+@keyframes header {
+  /*from {background-image: linear-gradient(crimson,yellow);}
+  to {background-image: linear-gradient(purple,blue);}*/
+  from{background-color: crimson;}
+  to{background-color: purple;}
+}
 #header{
     display: inline-block;
     color:antiquewhite;
     border: 10px solid wheat;
     border-radius: 20%;
     width: 300px;
-    background-color:crimson;
+    /*background-image:linear-gradient(crimson,yellow);*/
+    background-color: crimson;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
     
     
 }
@@ -54,7 +64,7 @@ nav .nav-buttons {
 
 nav .nav-buttons:hover {
    
-    background-color:#092e78;
+    background-image: linear-gradient(gainsboro,red);
 }
 
 #info{
@@ -63,9 +73,10 @@ nav .nav-buttons:hover {
     font-weight: 500;
     font-style: normal;
     border: 5px inset red;
-    background-color:cornflowerblue;
+    /*background-color:cornflowerblue;*/
+    background-image: linear-gradient(red,yellow);
     width: 400px;
-    color:aliceblue;
+    color:whitesmoke;
 }
 #Members{
     color:aliceblue;
