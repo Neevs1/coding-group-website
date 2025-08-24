@@ -37,6 +37,8 @@ body{
 
 }
 nav {
+    
+    background-image: linear-gradient(royalblue,aqua);
     font-size: large;
     display: flex;
     justify-content: right;
@@ -47,7 +49,7 @@ nav {
     align-self: flex-start;
     font-weight: bold;
     font-size: x-large;
-    color: white;
+    background-image: linear-gradient(red,royalblue);
     margin-right: auto;
 }
 
@@ -98,7 +100,7 @@ nav .nav-buttons:hover {
     width: auto;   
 }
 #Aryan{
-     border-radius: 50%;
+    border-radius: 50%;
     height: 100px;
     width: auto;   
 }

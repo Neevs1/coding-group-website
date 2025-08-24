@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+    background-image: linear-gradient(seagreen,royalblue);
+}
+#Head{
+    display: inline-block;
+    background-image: linear-gradient(to right,crimson,rebeccapurple);
+    width: 500px;
+    border: 10px solid wheat;
+    border-radius: 20px;
+}
+@keyframes info {
+     from{background-color: crimson;}
+  to{background-color: rosybrown;}
+}
+#info{
+    display:inline-block;
+    background-color: crimson;
+    border: 10px solid wheat;
+    font-style:oblique;
+    border-radius: 20px;
+    color: whitesmoke;
+     animation-name: info;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+ 
+}
