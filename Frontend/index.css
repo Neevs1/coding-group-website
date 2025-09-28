@@ -46,7 +46,7 @@ nav {
 }
 
 #title {
-    align-self: flex-start;
+    align-self:flex-start;
     font-weight: bold;
     font-size: x-large;
     background-image: linear-gradient(red,royalblue);
@@ -70,7 +70,8 @@ nav .nav-buttons:hover {
 }
 
 #info{
-    display: inline-block;
+    text-align: center;
+    display: block;
     border-color: cadetblue;
     font-weight: 500;
     font-style: normal;
@@ -79,6 +80,7 @@ nav .nav-buttons:hover {
     background-image: linear-gradient(red,yellow);
     width: 400px;
     color:whitesmoke;
+    margin: 15px auto;
 }
 #Members{
     color:aliceblue;

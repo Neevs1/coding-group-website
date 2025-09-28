@@ -11,10 +11,17 @@ body{
     width: 500px;
     border: 10px solid wheat;
     border-radius: 20px;
+     animation-name: Head;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
 }
 @keyframes info {
      from{background-color: crimson;}
   to{background-color: rosybrown;}
+}
+@keyframes return {
+     from{background-color: lightcoral;}
+  to{background-color: darkcyan;}
 }
 #info{
     display:inline-block;
@@ -23,8 +30,20 @@ body{
     font-style:oblique;
     border-radius: 20px;
     color: whitesmoke;
-     animation-name: info;
+    animation-name: info;
     animation-duration: 4s;
     animation-iteration-count: 5;
  
+}
+#return{
+    display: inline-block;
+    background-color: lightcoral;
+    border: 10px ridge crimson;
+    border-radius: 20px;
+    color: cornsilk;
+     animation-name: return ;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    
+
 }
